@@ -16,6 +16,6 @@ I think you can find everything you need in my report.
 
 For DQN version maze solver, see: 
 
-A screenshot for reference:
-![img]()
+A screenshot for reference, check if this repo is what you're looking for:
+![img](https://github.com/saaries/Maze_reinforcement_learning/blob/master/maze_demo.png)
 
