@@ -2,6 +2,8 @@
 
 Use Q-Learning and SARSA to solve maze problem generated randomly
 
+IMPORTANT: comment the env.render() can obtain results quicker (rendering surely much slower than CPU staffssssss).
+
 - gym_maze: the gym library for generating experiment environment 
 
 - How to run? Simply run .py that has a main function
