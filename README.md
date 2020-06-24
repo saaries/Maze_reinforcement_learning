@@ -16,7 +16,7 @@ IMPORTANT: comment the env.render() can obtain results quicker (rendering surely
 
 I think you can find everything you need in my report.
 
-For DQN version maze solver, see: 
+For DQN version maze solver, see: https://github.com/saaries/Maze_DQN_reinforcement_learning
 
 A screenshot for reference, check if this repo is what you're looking for:
 ![img](https://github.com/saaries/Maze_reinforcement_learning/blob/master/maze_demo.png)
