@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e9d94-e16c-43e6-9696-de0492749f05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/exp1-lr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/exp1-lr.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_maze/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_maze/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_maze/envs/maze_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_maze/envs/maze_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newQ_Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/newQ_Learning.py" afterDir="false" />
-    </list>
+    <list default="true" id="c33e9d94-e16c-43e6-9696-de0492749f05" name="Default" comment="update dependency" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,8 +177,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593005988693</updated>
-      <workItem from="1669451272318" duration="1201000" />
+      <workItem from="1669451272318" duration="1523000" />
     </task>
+    <task id="LOCAL-00001" summary="update dependency">
+      <created>1669452780544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669452780544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -231,6 +232,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="update dependency" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
