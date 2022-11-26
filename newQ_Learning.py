@@ -76,14 +76,14 @@ if __name__ == '__main__':
         #     agent.epsilon = 0
 
         # 重置迷宫环境，state = (0,0)
-        state = env.reset()
+        state, _ = env.reset()
         state = (state[0], state[1])
         
         for step in range(10000):
             env.render()
             # 依策略选择动作
             action = agent.choose_act(state)
-            state_, reward, done, _ = env.step(action)
+            state_, reward, done, _, _ = env.step(action)
             state_ = (state_[0], state_[1])
             # 每个时间步更新一次 Q 表
             agent.update_q(state, action, reward, state_)

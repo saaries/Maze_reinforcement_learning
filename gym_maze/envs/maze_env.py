@@ -66,7 +66,7 @@ class MazeEnv(gym.Env):
         self.np_random, seed = seeding.np_random(seed)
         return [seed]
 
-    def _step(self, action):
+    def step(self, action):
         if isinstance(action, int):
             self.maze_view.move_robot(self.ACTION[action])
         else:
@@ -83,19 +83,19 @@ class MazeEnv(gym.Env):
 
         info = {}
 
-        return self.state, reward, done, info
+        return self.state, reward, done, False, info
 
-    def _reset(self):
+    def reset(self):
         self.maze_view.reset_robot()
         self.state = np.zeros(2)
         self.steps_beyond_done = None
         self.done = False
-        return self.state
+        return (self.state, dict())
 
     def is_game_over(self):
         return self.maze_view.game_over
 
-    def _render(self, mode="human", close=False):
+    def render(self, mode="human", close=False):
         if close:
             self.maze_view.quit_game()
 
